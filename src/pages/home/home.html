@@ -1,0 +1,36 @@
+<ion-content class="splash-bg" scroll="false">
+ 
+    <br><br>
+    <div padding class="splash-logo">
+	<img src="../assets/img/logo1.PNG" />
+	</div>
+   <br><br>
+  <ion-list padding>
+    
+      <ion-item>
+        <ion-label fixed>Username</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label fixed>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+    
+    </ion-list>
+  <div padding align="center" width="80%">
+      <button ion-button color="#0ba1fd" onclick="signup()" outline>SignUp</button>
+     <br> <a class="FontColorWhite">Forget your login details?<b> Get help signing in</b></a>
+     <br><br><p class="FontColorWhite">------------------ OR ------------------ </p>
+     <br> <a class="FontColorWhite">Login with Facebook</a>
+    
+  <!--  <button ion-button block (click)="signup()" class="signup">{{ 'SIGNUP' | translate }}</button> -->
+   <!--  <button ion-button block (click)="login()" class="login">{{ 'LOGIN' | translate }}</button> -->
+  </div>
+  <ion-footer>
+      <ion-toolbar>
+        <ion-title><a class="FontColorWhite">Don't have an account? <b>SignUp</b></a></ion-title>
+      </ion-toolbar>
+    </ion-footer>
+  
+</ion-content>
