@@ -1,8 +1,8 @@
-<ion-content class="splash-bg" scroll="false">
+<ion-content class="splash-bg" scroll="false" no-bounce>
  
     <br><br>
     <div padding class="splash-logo">
-	<img src="../assets/img/logo1.PNG" />
+	<img src="assets/img/logo1.PNG" />
 	</div>
    <br><br>
   <ion-list padding style="margin-top: -40px;">
@@ -22,12 +22,12 @@
       <button ion-button class="btnWhiteBorderText"  outline>Login</button>
      <br> <a class="FontColorWhite">Forget your login details?<b> Get help signing in</b></a>
      <br><br><p class="FontColorWhite">------------------ OR ------------------ </p>
-     <br> <a ><img src="../assets/img/fblogin.png" /></a>
+     <br> <a ><img src="assets/img/fblogin.png" /></a>
      
   <!--  <button ion-button block (click)="signup()" class="signup">{{ 'SIGNUP' | translate }}</button> -->
    <!--  <button ion-button block (click)="login()" class="login">{{ 'LOGIN' | translate }}</button> -->
   </div>
-  <ion-footer class="footerTransparent">
+  <ion-footer class="footerTransparent" fixed>
       <ion-toolbar>
         <ion-title ><a (click)="registerpage()" class="FontColorWhite" style="font-size: 58%;">Don't have an account? <b>SignUp</b></a></ion-title>
       </ion-toolbar>
