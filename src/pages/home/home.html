@@ -5,31 +5,31 @@
 	<img src="../assets/img/logo1.PNG" />
 	</div>
    <br><br>
-  <ion-list padding>
+  <ion-list padding style="margin-top: -40px;">
     
-      <ion-item>
-        <ion-label fixed>Username</ion-label>
+      <ion-item class="ionItemBgTransparent" style="border-top: none;">
+        <ion-label style="border-top: none;" floating>Username</ion-label>
         <ion-input type="text" value=""></ion-input>
       </ion-item>
     
-      <ion-item>
-        <ion-label fixed>Password</ion-label>
+      <ion-item class="ionItemBgTransparent">
+        <ion-label floating>Password</ion-label>
         <ion-input type="password"></ion-input>
       </ion-item>
     
     </ion-list>
-  <div padding align="center" width="80%">
-      <button ion-button color="#0ba1fd" onclick="signup()" outline>SignUp</button>
+  <div padding align="center" width="80%" style="margin-top: -35px;">
+      <button ion-button class="btnWhiteBorderText"  outline>Login</button>
      <br> <a class="FontColorWhite">Forget your login details?<b> Get help signing in</b></a>
      <br><br><p class="FontColorWhite">------------------ OR ------------------ </p>
-     <br> <a class="FontColorWhite">Login with Facebook</a>
-    
+     <br> <a ><img src="../assets/img/fblogin.png" /></a>
+     
   <!--  <button ion-button block (click)="signup()" class="signup">{{ 'SIGNUP' | translate }}</button> -->
    <!--  <button ion-button block (click)="login()" class="login">{{ 'LOGIN' | translate }}</button> -->
   </div>
-  <ion-footer>
+  <ion-footer class="footerTransparent">
       <ion-toolbar>
-        <ion-title><a class="FontColorWhite">Don't have an account? <b>SignUp</b></a></ion-title>
+        <ion-title ><a (click)="registerpage()" class="FontColorWhite" style="font-size: 58%;">Don't have an account? <b>SignUp</b></a></ion-title>
       </ion-toolbar>
     </ion-footer>
   
